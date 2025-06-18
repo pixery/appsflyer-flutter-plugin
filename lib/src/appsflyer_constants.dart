@@ -3,6 +3,7 @@ part of appsflyer_sdk;
 enum EmailCryptType { EmailCryptTypeNone, EmailCryptTypeSHA256 }
 
 class AppsflyerConstants {
+  static const String PLUGIN_VERSION = "6.16.2";
   static const String AF_DEV_KEY = "afDevKey";
   static const String AF_APP_Id = "afAppId";
   static const String AF_IS_DEBUG = "isDebug";
@@ -49,31 +50,31 @@ enum AFMediationNetwork {
       case AFMediationNetwork.ironSource:
         return "ironsource";
       case AFMediationNetwork.applovinMax:
-        return "applovinmax";
+        return "applovin_max";
       case AFMediationNetwork.googleAdMob:
-        return "googleadmob";
+        return "google_admob";
       case AFMediationNetwork.fyber:
         return "fyber";
       case AFMediationNetwork.appodeal:
         return "appodeal";
       case AFMediationNetwork.admost:
-        return "Admost";
+        return "admost";
       case AFMediationNetwork.topon:
-        return "Topon";
+        return "topon";
       case AFMediationNetwork.tradplus:
-        return "Tradplus";
+        return "tradplus";
       case AFMediationNetwork.yandex:
-        return "Yandex";
+        return "yandex";
       case AFMediationNetwork.chartboost:
         return "chartboost";
       case AFMediationNetwork.unity:
-        return "Unity";
+        return "unity";
       case AFMediationNetwork.toponPte:
-        return "toponpte";
+        return "topon_pte";
       case AFMediationNetwork.customMediation:
-        return "customMediation";
+        return "custom_mediation";
       case AFMediationNetwork.directMonetizationNetwork:
-        return "directMonetizationNetwork";
+        return "direct_monetization_network";
     }
   }
 }
